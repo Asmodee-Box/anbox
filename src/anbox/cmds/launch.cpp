@@ -24,7 +24,7 @@
 #include "anbox/runtime.h"
 #include "anbox/logger.h"
 
-#include <core/dbus/asio/executor.h>
+#include "executor.h"
 
 #include <boost/filesystem.hpp>
 

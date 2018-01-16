@@ -53,7 +53,7 @@ std::istream& operator>>(std::istream& in, anbox::graphics::GLRendererServer::Co
 
 #include <sys/prctl.h>
 
-#include <core/dbus/asio/executor.h>
+#include "executor.h"
 #include <core/dbus/bus.h>
 #pragma GCC diagnostic pop
 
